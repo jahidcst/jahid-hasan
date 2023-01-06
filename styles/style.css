@@ -1,0 +1,221 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/******** Header design************ */
+header{
+    width: 100%;
+    height: 580px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)), url(/images/donation5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sub-container{
+    padding: 140px 200px;
+}
+.head-title{
+    color: white;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 45px;
+    font-weight: 700;
+}
+.head-description{
+    text-align: center;
+    color: rgb(223, 221, 221);
+    margin: 20px 135px;
+    font-weight: 500;
+}
+
+.btn{
+    text-align: center;
+    margin: 30px 0px;
+}
+/* Universel Button for apply others button */
+.btn-primary{
+    padding: 12px;
+    font-size: 19px;
+    border: 0;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(252, 53, 93);
+}
+
+.body-title{
+    text-align: center;  
+    margin-top: 30px;
+}
+.body-description{
+    text-align: center;
+    margin: 20px 370px;
+}
+.boxes{
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+}
+.box{
+    height: 90px;
+    width: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#dbdbdb5a;
+    border-radius: 5px;
+}
+.box>h1{
+    font-size:24px ;
+    color: rgba(69, 69, 69, 0.923);
+    font-weight: 900;
+}
+.container>p{
+color: #474747;;
+}
+.box1{
+    border: 1px solid rgb(252, 53, 93);
+    background-color: rgba(252, 53, 93, 0.202);
+    color: rgb(252, 53, 93);
+
+}
+.box1>h1{
+    color: rgb(252, 53, 93);
+}
+.taka-desc{
+    color: #5a5a5a;
+    font-size: 20px;
+    text-align: center;
+    margin: 40px 0px;
+}
+/* Plan boxes design */
+
+.plan-side{
+    text-align: center;
+}
+.plan-side>h1{
+    margin: 30px 0px;
+}
+.plan-side>p{
+    color: #474747;
+}
+.plan-container{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 45px;
+}
+.plan-container h1{
+    margin: 16px 0px;
+    font-size: 26px;
+    color: rgba(21, 20, 20, 0.924);
+}
+.plan-container p{
+    color: rgba(35, 35, 35, 0.851);
+}
+.plans1, .plans2, .plans3{
+    height: 230px;
+    width: 220px;
+    padding: 40px 20px;
+    border-radius: 6px;
+    text-align: justify;
+}
+.plans1{
+    background-color: rgba(0, 255, 255, 0.234) ;
+}
+.plans2{
+    background-color: rgba(255, 192, 203, 0.584);
+}
+.plans3{
+    background-color: rgba(255, 166, 0, 0.341);
+}
+/* BODY ER IMAGE DESIGN GULA */
+.data-container{
+    display: flex;
+    gap: 70px;
+    justify-content: center;
+    width: 100%;
+    height: 440px;
+    margin-top: 110px;
+}
+.data-image{
+    height: 420px;
+    width: 530px;
+    border-radius: 5px;
+}
+.data-item1{
+    height: 280px;
+    width: 400px;
+}
+.data-title{
+    font-size: 50px;
+    font-weight: 700;
+}
+.data-description{
+    margin: 30px 0px;
+    color: #5b5b5b;
+}
+#data-button{
+    padding: 12px;
+    font-size: 19px;
+    border: 0;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(255, 112, 140);
+}
+/* *************************Main Footer section************************************* */
+.footer-container{
+    text-align: center;
+    margin-top: 100px;
+}
+.footer-container h1{
+    font-size: 45px;
+}
+.footer-container p{
+  color: #5b5b5b; 
+  margin: 15px 0px;
+
+}
+.email-bar{
+    height: 170px;
+    width: 730px;
+    margin: 65px auto;
+    display: flex;
+    align-items: center;
+    background-color: rgba(247, 193, 202, 0.22);
+    justify-content: center;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.email-bar input{
+    padding: 13px;
+    border: none;
+    background-color: rgb(225, 216, 216);
+    border-radius: 5px;
+   
+}
+.email-bar button{
+    padding: 12px 30px;
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-size: 15px;
+    color: white;
+    background-color:  rgb(249, 104, 133);
+}
+.copyright{
+    background-color: rgb(1, 1, 22);
+    height: px;
+    text-align: center;
+    padding: 50px;
+}
+.copyright h1{
+    color: rgb(221, 14, 32);
+    font-size: 30px;
+    font-family: 'Lobster', cursive;
+
+}
+.copyright p{
+    color: white;
+    font-size: 17px;
+}
